@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-* **Purpose of the  Analysis** - The purpose of the analysis was to see if the the logistic regression model can predict loan health accurately using the original dataset or a resampled dataset.
+* **Purpose of the  Analysis** - The purpose of the analysis was to see if the the logistic regression model can predict loan health accurately using the given dataset.
 * **Explain what financial information the data was on, and what you needed to predict.** -The dataset provided information on 77,536 loans, with 75,036 of them being healthy loans and 2,500 of them being high-risk loans. The dataset consists of 8 columns: loan size, interest rate, borrower income,, debt to income, number of accounts, derogatory marks,  total debt, and finally loan status. Loan status is what we are ultimately attempting to predict, and we're using the other columns to inform our model and make predictions based on the data.
 
 * **Describe the stages of the machine learning process you went through as part of this analysis.** 
@@ -17,7 +17,7 @@
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1: - Logistic Regression
+* Machine Learning Model: - Logistic Regression
 	  *  **Accuracy Score:** 99%
 	  *  **Precision Scores:**
 			  * Healthy loans: 100%
@@ -25,11 +25,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 		* **Recall Scores:**
 			* Healthy loans: 99%
 			* High-Risk loans: 94% 
-
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 ## Summary
 
